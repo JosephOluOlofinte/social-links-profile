@@ -1,0 +1,151 @@
+@import url('./fonts.css');
+
+:root {
+    --white: hsla(0, 0%, 100%, 0.85);
+    --green: hsla(75, 94%, 57%, 0.8);
+    --grey-600: hsl(0, 0%, 50%);
+    --grey-700: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%);
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    background-color: var(--grey-900);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    min-height: 100vh;
+    color: var(--grey-600);
+    font-family: 'Inter';
+}
+
+h1,
+h2,
+h3,
+p {
+    text-align: center;
+}
+
+.card {
+    width: 400px;
+    max-width: 90%;
+    background-color: var(--grey-800);
+    padding: 30px;
+    display: grid;
+    row-gap: 25px;
+    border-radius: 15px;
+}
+
+.personal-data {
+    width: 100%;
+    display: grid;
+    row-gap: 25px;
+    justify-items: center;
+}
+
+.avatar {
+    width: 120px;
+}
+
+.info {
+    display: grid;
+}
+
+.info h2 {
+    font-size: 24px;
+    color: var(--white);
+    padding-bottom: 5px;
+}
+
+.info h3 {
+    font-size: 14px;
+    color: var(--green);
+}
+
+.tagline {font-weight: 500;}
+
+.social-box {
+    list-style-type: none;
+    display: grid;
+    row-gap: 15px;
+}
+
+.social {
+    max-width: 100%;
+    background-color: var(--grey-700);
+    color: var(--white);
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.social a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 15px 0;
+    border-radius: inherit;
+}
+
+.social a:hover {
+    background-color: var(--green);
+    color: var(--grey-900);
+}
+
+.attribution { 
+    font-size: 10px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: var(--green);
+    text-decoration: none;
+ }
+
+
+ /* MOBILE SCREEN */
+ @media (max-width: 375px) {
+
+    .card {
+        padding-inline: 15px;
+    }
+
+    .personal-data {
+        row-gap: 20px;
+    }
+    
+    .avatar {
+        width: 100px;
+      }
+
+    .info h2 {
+        font-size: 20px;
+    }
+    
+    .info h3 {
+        font-size: 12px;
+    }
+
+    .social {
+        padding-block: 10px;
+        border-radius: 7px;
+        font-weight: 500;
+    }
+    
+    }
