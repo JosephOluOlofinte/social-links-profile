@@ -28,8 +28,6 @@ Users should be able to:
 - Desktop view
 ![](./laptop-screenshot.png)
 
-- Mobile view
-![](./mobile-screenshot.png)
 
 ### Links
 
