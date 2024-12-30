@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/JosephOluOlofinte/social-links-profile)
-- Live Site URL: [Blog Preview Card](https://josepholuolofinte.github.io/social-links-profile/)
+- Live Site URL: [Social Links Profile](https://josepholuolofinte.github.io/social-links-profile/)
 
 ## My process
 
